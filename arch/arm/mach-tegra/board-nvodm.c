@@ -524,7 +524,7 @@ struct tegra_serial_platform_data tegra_uart_platform[] = {
 		.use_pio = false,
 	},
 };
-static struct platform_device tegra_uart[] = {
+struct platform_device tegra_uart[] = {
 	{
 		.name = "tegra_uart",
 		.id = 0,

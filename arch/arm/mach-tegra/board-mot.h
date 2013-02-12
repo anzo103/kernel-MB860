@@ -56,6 +56,7 @@ extern void mot_setup_spi_ipc(void);
 extern void mot_keymap_update_init(void);
 
 extern struct tegra_serial_platform_data tegra_uart_platform[];
+extern struct platform_device tegra_uart[];
 
 extern void cpcap_set_dock_switch(int state);
 
